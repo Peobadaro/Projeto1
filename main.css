@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+header,
+section h2,
+form button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+    display: flex; 
+    align-items: center; 
+}
+
+h2 {
+    color: #333;
+    font-weight: bolder;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header nav li {
+    display: flex;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+section img {
+    margin-right: 5px; 
+}
+
+.logo {
+    display: inline-flex;
+    vertical-align:middle;
+    max-width: 1.5cm;
+    height: auto;
+    margin-right: 3px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #182c61;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.dica-charts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px; 
+}
+
+.dica-charts li {
+    flex:auto
+}
+
+.dica-charts img {
+    width: 32%;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.ola-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ola-container-left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.ola-container-right {
+    flex: 1;
+    padding: 0 20px;
+}
+
+
+.ola-heading {
+    color: #333; 
+    font-size: 2em; 
+}
+
+.ola-paragraph-1 {
+    color: #555; 
+    font-size: 1.2em; 
+    line-height: 1.5;
+}
+
+
+.conheca-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2e5ad2; 
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.conheca-button:hover {
+    background-color: #001e4d; 
+}
+
+form button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2e5ad2;
+    color: #ecf0f1 ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #001e4d; 
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.profile-container {
+max-width: 800px;
+margin: 40px auto;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+.profile-img {
+width: 20%;
+height: auto;
+border-radius: 50%;
+}
+
+.profile-name {
+margin: 5px 0;
+font-size: 18px;
+color: #ecf0f1;
+font-weight:normal;
+
+}
+
+.profile-title {
+font-size: 14px;
+color: #ecf0f1 ;
+
+}
+
+.profile-description {
+margin: 20px 0;
+font-size: 16px;
+line-height: 1.6;
+font-weight: normal;
+}
+
+#profile {
+    position: relative;
+}
+
+#profile::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 14cm;
+    background-color: #001e4d; 
+    z-index: -1; 
+}
+
+.profile-container {
+    position: relative;
+    z-index: 1; 
+    color: #ecf0f1 ; /* Cor da fonte  */
+    font-size: 14px;
+}
